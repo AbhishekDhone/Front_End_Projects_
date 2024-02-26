@@ -1,0 +1,557 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.header-top{
+    background-color: #fff;
+    height: auto;
+    padding:10px
+    
+}
+.header-top a{
+    font-size: 15px;
+    text-decoration: none;
+    color:#333333;
+    font-family:'Playfair Display', serif;
+}
+.header-top i{
+    color:red;
+    font-size: 20px;
+}
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+.back-color{
+    background:linear-gradient(225deg, #fdb07d 0%, #f65d5d 100%);
+    width: 100%;
+    height:900px;
+    
+    
+}
+
+/* ---------navigation--- */
+ul.navbar-nav li a.nav-link{
+    color:white;
+    font-size:20px;
+    font-weight: 400;
+    font-family:'Playfair Display', serif;
+    margin-left: 10px;
+    
+}
+.search-menu{
+    color:#fff;
+    font-size: 20px;
+}
+
+.navbar-text a{
+    color:white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Abhaya Libre', serif;
+} 
+
+@media screen and (min-width: 992px) {
+    
+    .hide-button{
+        display: none !important;
+    }
+  }
+
+  /* @media screen and (max-width: 320px) {
+      .back-color{
+          height: 400px;
+      }
+  } */
+ 
+     .carousel h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+        color: white;
+        
+    
+        
+    }
+    .carousel p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        color: white;
+        font-size: 15px;
+        
+
+        
+    } 
+
+.carousel h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: white;
+
+   
+}
+.carousel p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+.btn-btn{
+    display: inline-block;
+    border-radius: 4px;
+    background-color:white;
+    border: none;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-btn-fix{
+    display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	min-width: 167px;
+	padding: 14px 30px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	color: #f65d5d;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+.img-logo h2{
+    font-weight: 400;
+    font-size: 38px;
+    font-family: "Playfair Display", serif;
+    color:#333333;
+}
+.img-logo p{
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.8;
+
+}
+.about-img{
+     float: left; 
+    width: 112px;
+    height: 112px;
+    border: 1px solid #f1f4f4;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text p{
+        color:#666666;
+        font-size: 18px;
+        
+}
+.about-img h4{
+    color:#333333;
+}
+@media screen and (max-width: 320px) {
+    .about-img{
+        float: none;
+    }
+  
+}
+
+.btn-btn-bgcolor{
+    display: inline-block;
+	border: 1px solid black;
+	font-size: 16px;
+	font-weight: 500;
+	min-width: 167px;
+	padding: 14px 30px;
+	border-radius: 50px;
+	text-transform: uppercase;
+    color:#f86f64;
+	background-color: white;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.btn-btn-bgcolor:hover{
+       background:linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
+       color:#fff;
+}
+
+
+/* --------------popular services---- */
+
+.custom-backcolor{
+    background-color: #f9f2f0;
+    width: 100%;
+    height: auto;
+}
+ /* .class-item{
+    text-align: center;
+	background: #fff;
+	padding-top: 40px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	border-radius: 13px;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.class-item:hover{
+    -webkit-box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+} */
+
+
+.ci-metas i{
+    color:red;
+    font-size: 15px;
+}
+.ci-metas span{
+    font-size: 15px;
+}
+.hr{
+    border: 1px solid black;
+}
+.small-img{
+    width: 40px;
+	height: 40px;
+	float: left;
+	border-radius: 50%;
+	margin-right: 11px;
+}
+.btn-btn-footer{
+    
+	font-size: 14px;
+	padding: 8px 0px;
+	min-width: 120px;
+    display: inline-block;
+	border: 1px solid black;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 50px;
+	text-transform: uppercase;
+    color:white;
+	background-color:#f86f64;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.author-text p{
+        color:#f65d5d;
+}
+.card{
+    border-radius: 13px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 400px;
+}
+.card-title:hover{
+    color:#f65d5d;
+}
+
+
+
+/* -----------------OUR TRAINER YOGA---------- */
+
+
+ .icon-back {
+    
+	font-size: 25px;
+	
+
+}
+    
+
+
+.icon-back span i {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #f1f4f4;
+    padding: 10px;
+    background-color: #f1f4f4;
+  }
+  .text-color h5{
+      color:#f65d5d;
+  }
+  .image-back{
+    background: linear-gradient(
+        to bottom,
+        
+        rgba(246,93,93,1),
+        rgba(248,111,100,0.9)
+      ),url(https://technext.github.io/ahana/img/review-bg.jpg); 
+      width: 100%;
+      height:auto;
+  }
+.video{
+        /* position:relative; */
+}
+.video-play{
+        position:absolute;
+        left: 40%;
+         top: 40%;
+         /* margin-left: -20px; 
+        margin-top: -20px; 
+     */
+}
+ .event-item{
+     background-color:#fff;
+     /* padding-top: 20px;
+     padding-left: 20px;
+     margin-bottom: 30px; */
+	border-radius: 14px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+
+ }
+
+.ei-text h4 a{
+     color:#333333;
+ }
+
+ .event-item .ei-text ul li i {
+    color: #f65d5d;
+    font-size: 16px;
+    /* position: relative; */
+    top: 3px;
+
+ }
+
+ .event-item .ei-text ul {
+        list-style-type: none;
+    
+ }
+
+ 
+ .event-item .ei-text ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.ei-img{
+    
+    border-radius: 14px;
+}
+
+
+
+/* -------------------PRICING PLANS------------------- */
+.custom-pink{
+    background: #f9f2f0;
+}
+.pricing-item {
+	text-align: center;
+	background: #fff;
+	padding-bottom: 40px;
+	margin: 15px 0;
+	border-radius: 13px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-item:hover {
+	-webkit-box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+}
+
+.pricing-item .pi-top {
+	height: 156px;
+	padding-top: 26px;
+	background: #f65d5d;
+}
+
+.pricing-item .pi-top h4 {
+	font-family: "Playfair Display", serif;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.pricing-item .pi-price {
+	width: 144px;
+	height: 144px;
+	margin: -71px auto 30px;
+	padding-top: 35px;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+}
+
+.pricing-item .pi-price h3 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #666666;
+}
+
+.pricing-item .pi-price p {
+	text-transform: uppercase;
+	color: #999999;
+}
+
+.pricing-item ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.pricing-item ul li {
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 12px;
+}
+
+.pricing-item.begginer .pi-top {
+	background: #fdb07d;
+}
+
+.pricing-item.entermediate .pi-top {
+	background: #fa8f70;
+}
+
+.pricing-item.advanced .pi-top {
+	background: #f2786f;
+}
+
+.pricing-item.professional .pi-top {
+	background: #f65d5d;
+}
+.map{
+   width: 100%;
+   height: 100% ;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+.form{
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+.signup-form input{
+    width: 100%;
+    height: 49px;
+    padding: 5px 28px;
+    font-size: 14px;
+    color: #999999;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+}
+
+.signup-form textarea{
+    height: 140px;
+    padding: 15px 28px 10px;
+    border-radius: 20px;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+    color: #999999;
+
+}
+.sb-gradient{
+    color: #fff;
+    background-color: #f2786f;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 167px;
+    padding: 14px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.map iframe{
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    height:100%
+}
+.about-widget ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.about-widget ul li a{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.about-widget img{
+    margin-bottom: 10px;
+}
+.footer-widget ul{
+        list-style-type: none;
+}
+.footer-widget ul li a{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.footer-social a{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}

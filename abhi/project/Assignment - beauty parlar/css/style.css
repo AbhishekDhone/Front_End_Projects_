@@ -1,0 +1,361 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playball', cursive;
+}
+     
+     
+
+    :root {
+        --main-color: hotpink;
+        --main-style:'Abhaya Libre', serif;
+        /* font-family: 'Abhaya Libre', serif; */
+      }
+h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+h5{
+    font-family: 'Josefin Sans', sans-serif; 
+}
+p{
+    font-family: 'Abhaya Libre', serif;
+}
+        
+.back-img{
+  
+    background:url(https://cdn.shopify.com/s/files/1/0065/0693/8423/files/slider-bg3.jpg?v=1551420087); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    
+    
+}
+ .section-title h4{
+     color: #ef577a;
+ }
+
+ .back-text h1{
+     font-family:'Abhaya Libre', serif;
+     text-transform: capitalize;
+     font-weight: 100;
+     color: #553737;
+ }
+ .back-text{
+     padding-top: 40px;
+ }
+ .back-redies{
+     border-radius: 15px 0px 15px 0px;
+     padding: 10px;
+     
+ }
+
+ .navbar-light .navbar-nav .nav-link .navbar-light .navbar-nav .show>.nav-link{
+    display: block;
+    padding: 21px 15px;
+    position: relative;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #553737;
+ } 
+
+
+
+
+ @media screen and (min-width: 320px) {
+ 
+    .image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 120px;
+        height: 150px;
+        margin:-60px 0 0 -60px;
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+    }
+     @-moz-keyframes spin { 
+        100% { -moz-transform: rotate(360deg); } 
+    }
+    @-webkit-keyframes spin { 
+        100% { -webkit-transform: rotate(360deg); } 
+    }
+    @keyframes spin { 
+        100% { 
+            -webkit-transform: rotate(360deg); 
+            transform:rotate(360deg); 
+        } 
+    } 
+    
+    
+     
+    .box{
+        
+    
+         border: 1px solid hotpink;
+        color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+          border-radius: 15px 0px 15px 0px; 
+    
+    }
+    .box:hover{
+        background-color: hotpink;
+    }
+     /* -----------------------------------------------------massage---- */
+    .hotpink{
+         
+        width: 130px;
+        height: 130px;
+         border-radius: 55px 0 !important;
+
+        border: none !important;
+        background-color: hotpink;
+         transform: rotatex(50deg); 
+    }
+   
+    .position{
+        position: relative;
+        left: 41px;
+        bottom: -20px;
+    
+    }
+   
+   
+  
+    .hotpink:hover {
+    transform: skew(20deg);
+    border-radius: 0px 55px;
+   } 
+
+
+   /* --------------------------------------------about us---- */
+   .flower-img{
+       width: auto;
+       height: auto;
+       border-radius: 40px 0 40px 0;
+       transition: 0.5s;
+   }
+   .flower-img:hover{
+       border-radius: 0px 40px 0px 40px;
+   }
+   .custem-box{
+       height: auto; 
+       border-radius: 40px 0 40px 0;
+   }
+   .button{
+    border: 1px solid hotpink;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+     border-radius: 15px 0px 15px 0px; 
+     background-color:#553737;
+     margin-bottom: 10px;
+     font-family: 'Cormorant Garamond', serif;
+    
+     
+     
+   }
+   .button-fix{
+    border: 1px solid hotpink;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+     border-radius: 15px 0px 15px 0px; 
+     background-color:#ef577a;
+     margin-bottom: 10px;
+     font-family: 'Cormorant Garamond', serif;
+     
+   }
+   
+    .button:hover{
+    background-color: hotpink;
+   } 
+
+   /* ------------------------------------------------SPECIAL PACKAGE---------------- */
+
+   h2{
+       color: #ef577a;
+       font-weight:bold;
+   }
+   
+   .card-header1{
+       background-color: lightslategray;
+       border-radius: 40px 0px 0px 0px;  
+       padding: 10px;
+   }
+   .card-header1:hover{
+         background-color: #ef577a;
+         
+   }
+
+   .card-footer1{
+    background-color: lightslategray;
+    border-radius: 0px 0px 40px 0px;   
+    padding: 10px;  
+
+   }
+
+   .card-footer1:hover{
+    background-color: #ef577a;
+}
+   .link{
+       background-color:#ef577a;
+   }
+   a{
+       
+       font-size: 20px;
+       color:black;
+       text-decoration:none;
+   }
+   /* --------------------------------------------------POPULAR PROCEDURES---------------------------- --> */
+
+
+
+   /* --------------------------------EW CARE-------------- */
+   .wecare{
+       background-image:url(https://cdn.shopify.com/s/files/1/0065/0693/8423/files/parallax-spa.jpg?v=1550036193);
+       width: 100%;
+       height:500px;
+       background-repeat: no-repeat;
+   }
+   .pink{
+       color: hotpink;
+   }
+   .btn{
+    border: 1px solid hotpink;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border-radius: 15px 0px 15px 0px; 
+      
+    
+     background-color: #ef577a;
+   }
+   .custem-left{
+       padding-top: 100px;
+   }
+
+   /* --------------------------OUR GALLERY------------------ */
+   .img-box1 {
+    position: relative;
+    width: 100%;
+
+
+  }
+  
+ 
+  .img-box1:hover > .overlay {
+    opacity: 0.7;
+    cursor: pointer;  
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#ef577a
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* --------------------------------------------custom img----------------- */
+.custom-img{
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.shopify.com/s/files/1/0065/0693/8423/files/parallax-facts_5cde6fd6-aa5a-4a38-8990-7d69f466f60c.jpg?v=1550120538);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+
+.client-img{
+   width: 150px;
+   height: 150px;
+    border-radius: 55px 0 !important;
+
+   border: none !important;
+   
+}
+.position{
+   position: relative;
+   left: 41px;
+   bottom: -20px;
+
+}
+
+.client-img:hover {
+/* transform: skew(20deg); */
+border-radius: 0px 55px !important;
+
+}
+
+
+/* ----------------------------------------custom-hotpink-------------- */
+.custom-hotpink{
+    background-color: #ef577a;
+    display: block;
+    overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+span {
+    font-size: 25px;
+    height: auto;
+    color: black;
+    
+   
+    
+}
+
+
+  span:hover{
+      background-color:aquamarine;
+  }
+
+  .span1{
+      list-style-type:none;
+    
+      
+    
+  }
+  
+ .custem-left p{
+     color:#f9dc9d;
+ }

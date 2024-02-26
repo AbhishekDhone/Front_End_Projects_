@@ -1,0 +1,923 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Yoga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&family=Average&family=Cormorant+Garamond:wght@300;500&family=Courgette&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,500;1,300;1,400&family=Josefin+Sans:ital,wght@0,400;0,500;1,100;1,300;1,400&family=Niconne&family=Parisienne&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <section>
+        <div class="container-fluid">
+            <div class="header-top ">
+            <div class="row">
+                <div class="col-lg-6 d-none d-md-block p-0">
+                <a href="#"><i class="bi bi-ticket-fill me-3 ms-2"></i>ap184 Main Collins Street </a>
+                <a href="#"><i class="bi bi-telephone-minus-fill ms-5 me-2"></i>(965) 436 3274</a>
+                 </div>
+                 <div class="col-lg-6  d-none d-md-block p-0">
+                    <a href="#"><i class="bi bi-stopwatch me-2"></i>Mon - Fri: 6:30am - 07:45pm</a>
+                    <a href="#"><i class="bi bi-globe ms-5 me-2"></i>Language</a>
+                 </div>
+           </div>
+       </div>  
+       
+       <div class=" back-color">
+       <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://technext.github.io/ahana/img/logo.png"></a>
+           <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#demo1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navbar-light">
+              
+            </span>
+          </button>  -->
+          <div class="hide-button">
+          <button class="btn-btn primary" type="button" data-toggle="collapse" 
+    data-target="#demo1" aria-controls="navbarSupportedContent"
+    aria-expanded="true" aria-label="Toggle navigation d-none d-md-block"  > 
+  
+    <span>
+      <i class="bi bi-list"></i>
+    </span>
+    
+</button>
+</div>
+  
+
+          <div class="collapse navbar-collapse" id="demo1">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Classes</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled">Tranair</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled">Events</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled">Contact</a>
+              </li>
+            </ul>
+            <div class="search-menu">
+              <span><i class="bi bi-search me-4"></i></span>
+              <span><i class="bi bi-list"></i></i></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+<!-- -----------------carsoual---- -->
+ <div class="container pt-5">
+  <div id="carouselExample" class="carousel vert slide" data-ride="carousel" data-interval="1000">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="d-block mx-auto img-fluid w-100" src="https://technext.github.io/ahana/img/hero-slider/1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 col-12 col-sm-12 col-md-6">
+              <img class="d-block mx-auto img-fluid text-center w-100" src="https://technext.github.io/ahana/img/hero-slider/2.png" alt="Second slide">
+            </div>
+            <div class="col-lg-6 col-12 col-sm-12 col-md-6">
+              <div class="carousel pt-5 ">
+              <h1>GET SLIM AND TONED WITH YOGA</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <button class="btn-btn-fix">REGISTER NOW</button>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="text-center">
+                <div class="carousel">
+                <h1 class="mt-5">REDUCE YOUR STRESS</h1>
+                <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam doloribus laboriosam, fugit inventore officia accusamus aperiam odit natus! Voluptas Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, odit..</p>
+                <button class="btn-btn-fix">REGISTER NOW</button>
+              </div> 
+              
+              
+              <img class="d-block mx-auto img-fluid mt-5 w-100 " src="https://technext.github.io/ahana/img/hero-slider/3.png" alt="Third slide">
+              
+            </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon  rounded-circle" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon  rounded-circle" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+</div> 
+</div>
+</div>
+    
+</div>
+ </section>
+    
+<section>
+  <div class="container">
+    <div class="text-center">
+      <div class="img-logo mt-5 ">
+        <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/logo-icon.png">
+        <h2 class="mt-3">WELCOME TO AHANA</h2>
+        <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mt-5  col-12 col-sm-12 col-md-6">
+        <img class="img-fluid" src="https://technext.github.io/ahana/img/about.png">
+      </div>
+      <div class="col-lg-6 col-12 col-sm-12 col-md-12 mt-5">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-md-12 col-12">
+        <div class="about-item">
+          <div class="about-img">
+            <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/about-1.png">
+          </div>
+          <div class="about-text">
+            <h4 class="mt-2">Full Rejuvenation</h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est .</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 col-sm-12 col-md-12  col-12">
+      <div class="about-item">
+        <div class="about-img">
+          <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/about-2.png">
+        </div>
+        <div class="about-text mt-5">
+          <h4 class="mt-2">Extension of Spring</h4>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem a cusantium doloremque.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-lg-12 col-sm-12 col-md-12 col-12">
+    <div class="about-item mt-5">
+      <div class="about-img">
+        <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/about-3.png">
+      </div>
+      <div class="about-text">
+        <h4 class="mt-2">Against Aging</h4>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+      </div>
+  </div>
+  <button class="btn-btn-bgcolor">REGISTER NOW</button>
+    </div>
+
+    
+
+  </div>
+</div>
+</div>
+</section>
+
+<!-- <--------------POPULAR CLASSES---------- -->
+
+  <section class="custom-backcolor mt-5 pb-5">
+    <div class="container">
+      <div class="text-center">
+      <div class="img-logo pt-5 ">
+        <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/logo-icon.png">
+        <h2 class="mt-3">POPULAR CLASSES</h2>
+        <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+      </div>
+    </div>
+    <div class="owl-carousel owl-theme my-slider">
+  <div class="card" style="width:18rem;">
+      <img class="card-img-top img-fluid rounded-circle p-4 " src="https://technext.github.io/ahana/img/classes/2.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title text-center">Tradishional-Hatha</h5>
+        <div class="ci-metas">
+          <span><i class="bi bi-alarm"></i>Mon, Wed, Fri</span>
+          <span><i class="bi bi-hourglass ms-1"></i>06:30pm - 07:45pm</span>	
+				</div>
+            <hr>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <footer class="d-flex">
+              <div class="small-img">
+                  <img class="img-fluid rounded-circle " src="https://technext.github.io/ahana/img/classes/author/2.jpg">
+               </div>
+              <div class="author-text">
+                  <h6>Victoria Webb</h6>
+                  <p>Yoga Trainer</p>
+              </div>
+            </footer>
+            <div class="button mx-auto">
+              <button class="btn-btn-footer mt-3">BOOK NOW</button>
+          </div>
+      </div>
+  </div>
+
+  <div class="card" style="width:18rem;">
+    <img class="card-img-top img-fluid  rounded-circle p-4" src="https://technext.github.io/ahana/img/classes/1.jpg" alt="Card image cap">
+  <div class="card-body">
+      <h5 class="card-title text-center">Aritistic Yoga</h5>
+      <div class="ci-metas">
+        <span><i class="bi bi-alarm"></i>Mon, Wed, Fri</span>
+        <span><i class="bi bi-hourglass ms-1"></i>06:30pm - 07:45pm</span>	
+      </div>
+          <hr>
+          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <footer class="d-flex">
+            <div class="small-img">
+                <img class="img-fluid rounded-circle " src="https://technext.github.io/ahana/img/classes/author/2.jpg">
+             </div>
+            <div class="author-text">
+                <h6>Victoria Webb</h6>
+                <p>Yoga Trainer</p>
+            </div>
+            
+          </footer>
+          <div class="button mx-auto">
+            <button class="btn-btn-footer mt-2">BOOK NOW</button>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top img-fluid  rounded-circle p-4" src="https://technext.github.io/ahana/img/classes/3.jpg" alt="Card image cap">
+<div class="card-body">
+    <h5 class="card-title text-center">Yoga Therepy</h5>
+    <div class="ci-metas">
+      <span><i class="bi bi-alarm"></i>Mon, Wed, Fri</span>
+      <span><i class="bi bi-hourglass ms-1"></i>06:30pm - 07:45pm</span>	
+    </div>
+        <hr>
+        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <footer class="d-flex">
+          <div class="small-img">
+              <img class="img-fluid rounded-circle  " src="https://technext.github.io/ahana/img/classes/author/2.jpg">
+           </div>
+          <div class="author-text">
+              <h6>Victoria Webb</h6>
+              <p>Yoga Trainer</p>
+          </div>
+        </footer>
+        <div class="button mx-auto">
+          <button class="btn-btn-footer mt-2">BOOK NOW</button>
+      </div>
+  </div>
+</div>
+</div>    
+  </div>       
+  </section>
+
+        <!-- --------------OUR TRAINER YOGA---------- -->
+
+<section>
+  <div class="container">
+    <div class="text-center">
+    <div class="img-logo pt-5 ">
+      <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/logo-icon.png">
+      <h2 class="mt-3">OUR TRAINER YOGA</h2>
+      <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+    </div>
+  </div>
+
+  <div class="owl-carousel test-slides owl-loaded owl-drag" id="testimonial-carousel">      
+    <div class="owl-stage-outer">
+      <!-- <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0.25s ease 0s; width: 0px;">
+        <div class="owl-item cloned active" style="width: 0px;">
+          <div class="item"> -->
+  <div class="card mb-3" style="width:540">
+    <div class="row  no-gutters">
+      <div class="col-lg-4"> 
+        <img  class="img-fluid" src="https://technext.github.io/ahana/img/trainer/1.png" class="card-img" alt="...">
+      </div>
+       <div class="col-lg-8 "> 
+        <div class="card-body text-color pt-5">
+          <h3 class="card-title">Lori Keenedy</h3>
+          <h5>Yoga Trainer</h5>
+          <p class="card-text">Therapy Certificate of Uttarakhand University Sanskrit.</p>
+          <div class="icon-back d-flex">
+            <span><i class="bi bi-facebook ms-3"></i></span>
+            <span><i class="bi bi-instagram ms-3"></i></span>
+            <span><i class="bi bi-twitter ms-3"></i></span>
+            <span><i class="bi bi-linkedin ms-3"></i></span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="owl-stage-outer">
+  <div class="card mb-3" style="width:540">
+    <div class="row  no-gutters">
+     <div class="col-lg-4 "> 
+        <img  class="img-fluid" src="https://technext.github.io/ahana/img/trainer/2.png" class="card-img" alt="...">
+      </div>
+      <div class="col-lg-8"> 
+        <div class="card-body text-color pt-5">
+          <h3 class="card-title">Lori Keenedy</h3>
+          <h5>Yoga Trainer</h5>
+          <p class="card-text">Therapy Certificate of Uttarakhand University Sanskrit.</p>
+          <div class="icon-back d-flex">
+            <span><i class="bi bi-facebook ms-3"></i></span>
+            <span><i class="bi bi-instagram ms-3"></i></span>
+            <span><i class="bi bi-twitter ms-3"></i></span>
+            <span><i class="bi bi-linkedin ms-3"></i></span>
+          </div>
+        </div>
+      </div>
+      </div> 
+    </div>
+  </div>
+
+  <div class="owl-stage-outer">
+  <div class="card mb-3" style="width:540">
+    <div class="row  no-gutters">
+      <div class="col-lg-4 ">
+        <img class="img-fluid" src="https://technext.github.io/ahana/img/trainer/3.png" class="card-img" alt="...">
+      </div>
+       <div class="col-lg-8 "> 
+        <div class="card-body text-color pt-5">
+          <h3 class="card-title">Rbica james</h3>
+          <h5>Yoga Trainer</h5>
+          <p class="card-text">Therapy Certificate of Uttarakhand University Sanskrit.</p>
+          <div class="icon-back d-flex">
+            <span><i class="bi bi-facebook ms-3"></i></span>
+            <span><i class="bi bi-instagram ms-3"></i></span>
+            <span><i class="bi bi-twitter ms-3"></i></span>
+            <span><i class="bi bi-linkedin ms-3"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+</div>
+  
+</div>
+    </div>  
+  </div>
+  </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="image-back pt-5 pb-5">
+    <div class="container">
+      <div class="owl-carousel owl-theme my-slider3">
+          <div class="review-item text-center pt-5">
+            <div class="review-img">
+              <img class="img-fluid rounded-circle" src="https://technext.github.io/ahana/img/classes/author/2.jpg" style="width: 100px; display: inline;">
+            </div>
+            <div class="review-text text-white text-center pt-3">
+              <p class="ps-5 pe-5 text-center">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p>
+              <h4>Denise Thomas</h4>
+              <h6>Designer</h6>
+            </div>
+       </div>
+
+       <div class="review-item text-center pt-5">
+        <div class="review-img">
+          <img class="img-fluid rounded-circle" src="https://technext.github.io/ahana/img/classes/author/1.jpg" style="width: 100px; display: inline;">
+        </div>
+        <div class="review-text text-white text-center pt-3">
+          <p class="ps-5 pe-5 text-center">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p>
+          <h4>Denise Thomas</h4>
+          <h6>Designer</h6>
+        </div>
+   </div>
+
+   <div class="review-item text-center pt-5">
+    <div class="review-img ">
+      <img class="img-fluid rounded-circle" src="https://technext.github.io/ahana/img/classes/author/3.jpg" style="width: 100px; display: inline;">
+    </div>
+    <div class="review-text text-white text-center pt-3">
+      <p class="ps-5 pe-5 text-center">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p>
+      <h4>Denise Thomas</h4>
+      <h6>Designer</h6>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+ </div>
+
+  
+</section>
+
+    <!-- ----------------------UPCOMING EVENTS-------------- -->
+
+<section>
+ <div class="container mt-5">
+    <div class="text-center">
+    <div class="img-logo mt-5 ">
+      <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/logo-icon.png">
+      <h2 class="mt-3">UPCOMING EVENTS</h2>
+      <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 col-12 col-md-12 ">
+      <div class="event-video text-center mt-5">
+        <img class="video img-fluid"src="https://technext.github.io/ahana/img/video.jpg" alt="" style="width: 100%;">
+        <a href="https://www.youtube.com/watch?v=vgv-hzTl5FA" class="video-popup">
+          <img class="video-play img-fluid" src="https://technext.github.io/ahana/img/icons/play.png" alt=""></a>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-12 col-md-12">
+
+      <div class="event-item mt-3">
+      <div class="row">
+      <div class="col-lg-6 col-12 col-sm-12 col-md-6"> 
+        <div class="ei-img">
+          <img class="img-fluid" src="https://technext.github.io/ahana/img/event/2.jpg" alt="" style="width: 100%;">
+        </div>
+        </div>
+      
+      
+      <div class="col-lg-6 col-12 col-sm-12 col-md-6 "> 
+        <div class="ei-text">
+          <h4 class="mt-3"><a href="#">Lole White Yoga Tour</a></h4>
+          <ul class="">
+            <li><i class="bi bi-person-rolodex me-3"></i>person</i>Kelly Alexander</li>
+            <li><i class="bi bi-bookmark-check me-3"></i>15 January, 2019</li>
+            <li><i class="bi bi-briefcase-fill me-3"></i>184 Main Collins Street</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!-- 8888888888888888888 -->
+
+
+
+<div class="event-item mt-3">
+  <div class="row">
+  <div class="col-lg-6 col-12 col-sm-12 col-md-6"> 
+    <div class="ei-img">
+      <img class="img-fluid" src="https://technext.github.io/ahana/img/event/3.jpg" alt="" style="width: 100%;">
+    </div>
+    </div>
+  
+  
+  <div class="col-lg-6 col-12 col-sm-12 col-md-6"> 
+    <div class="ei-text">
+      <h4 class="mt-3"><a href="#">Free Yoga Madrid</a></h4>
+      <ul class="">
+        <li><i class="bi bi-person-rolodex me-3"></i>person</i>Kelly Alexander</li>
+        <li><i class="bi bi-bookmark-check me-3"></i>15 January, 2019</li>
+        <li><i class="bi bi-briefcase-fill me-3"></i>184 Main Collins Street</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- 8888888888888888888 -->
+
+<div class="event-item mt-3">
+  <div class="row">
+  <div class="col-lg-6 col-12 col-sm-12 col-md-6"> 
+    <div class="ei-img">
+      <img class="img-fluid" src="https://technext.github.io/ahana/img/event/1.jpg" alt="" style="width: 100%;">
+    </div>
+    </div>
+  
+  
+  <div class="col-lg-6 col-12 col-sm-12 col-md-6 "> 
+    <div class="ei-text">
+      <h4 class="mt-3"><a href="#">One Love Dallas</a></h4>
+      <ul class="">
+        <li><i class="bi bi-person-rolodex me-3"></i>person</i>Kelly Alexander</li>
+        <li><i class="bi bi-bookmark-check me-3"></i>15 January, 2019</li>
+        <li><i class="bi bi-briefcase-fill me-3"></i>184 Main Collins Street</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+  </div>       
+</div>
+</div>
+</section>
+
+
+    <!-- -------------------PRICING PLANS------------------- -->
+
+<section class="mt-5">
+  <div class="custom-pink">
+  <div class="container">
+    <div class="text-center">
+      <div class="img-logo mt-5 ">
+        <img class="img-fluid" src="https://technext.github.io/ahana/img/icons/logo-icon.png">
+        <h2 class="mt-3">UPCOMING EVENTS</h2>
+        <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="pricing-item begginer">
+          <div class="pi-top">
+            <h4>Begginer</h4>
+          </div>
+          <div class="pi-price">
+            <h3>$59</h3>
+            <p>Per month</p>
+          </div>
+          <ul>
+            <li>Take Up To 7 Classes</li>
+            <li>Available To Anyone</li>
+            <li>Towels Included</li>
+            <li>Never Expires</li>
+          </ul>
+          <a href="#" class="site-btn sb-line-gradient">Get started</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="pricing-item entermediate">
+          <div class="pi-top">
+            <h4>Entermediate</h4>
+          </div>
+          <div class="pi-price">
+            <h3>$99</h3>
+            <p>Per month</p>
+          </div>
+          <ul>
+            <li>Take Up To 7 Classes</li>
+            <li>Available To Anyone</li>
+            <li>Towels Included</li>
+            <li>Never Expires</li>
+          </ul>
+          <a href="#" class="site-btn sb-line-gradient">Get started</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="pricing-item advanced">
+          <div class="pi-top">
+            <h4>Advanced</h4>
+          </div>
+          <div class="pi-price">
+            <h3>$159</h3>
+            <p>Per month</p>
+          </div>
+          <ul>
+            <li>Take Up To 7 Classes</li>
+            <li>Available To Anyone</li>
+            <li>Towels Included</li>
+            <li>Never Expires</li>
+          </ul>
+          <a href="#" class="site-btn sb-line-gradient">Get started</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="pricing-item professional">
+          <div class="pi-top">
+            <h4>Professional</h4>
+          </div>
+          <div class="pi-price">
+            <h3>$199</h3>
+            <p>Per month</p>
+          </div>
+          <ul>
+            <li>Take Up To 7 Classes</li>
+            <li>Available To Anyone</li>
+            <li>Towels Included</li>
+            <li>Never Expires</li>
+          </ul>
+          <a href="#" class="site-btn sb-line-gradient">Get started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+     <!-- #################map########## -->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33245.297803635964!2d-73.76987401620775!3d40.704774398815005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1575866843291!5m2!1sen!2sbd" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="form">
+            <h3>Sign Up for Our Classes</h3>
+						<p>To be invited to the nearest Cali center and get free physical advice to learn more about the program.</p>
+					</div>
+          <div class="signup-form">
+            <div class="row ">
+              <div class="col-lg-6 col-md-6">
+                <input type="text" placeholder="First Name">
+              </div>
+              <div class="col-lg-6  col-md-6">
+                <input type="text" placeholder="last Name">
+              </div>
+              <div class="col-lg-6  col-md-6">
+                <input type="text" placeholder="Your Name">
+              </div>
+              <div class="col-lg-6  col-md-6">
+                <input type="text" placeholder="Phone Number">
+              </div>
+              <div clss="col-md-12">
+                <textarea placeholder="Message"></textarea>
+             <a href="#" class="site-btn sb-gradient">GET STARTED</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ##########gallry3######### -->
+
+  <section>
+    <div class="container-fluid">
+    <div class="owl-carousel owl-theme my-slider4">
+      
+        
+         <div class="item-abc xyz img-fluid"><img src="https://technext.github.io/ahana/img/gallery/1.jpg"></div>
+         <div class="item-abc xyz img-fluid"><img src="https://technext.github.io/ahana/img/gallery/2.jpg"></div>
+         <div class="item-abc xyz img-fluid"><img src="https://technext.github.io/ahana/img/gallery/5.jpg"></div>
+         <div class="item-abc xyz img-fluid"><img src="https://technext.github.io/ahana/img/gallery/4.jpg"></div>
+         <div class="item-abc xyz img-fluid"><img src="https://technext.github.io/ahana/img/gallery/5.jpg"></div>
+         <div class="item-abc xyz img-fluid"><img src="https://technext.github.io/ahana/img/gallery/6.jpg"></div>
+         
+          
+      </ul>
+      </div>
+    
+    </div>
+      </div>
+  </section>
+
+
+  <!-- ----------------------footer------------- -->
+  <section>
+    <div class="container mt-5">
+    <div class="footer">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="about-widget">
+            <img src="https://technext.github.io/ahana/img/logo-3.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consec-tetur adipiscing elit sed.</p>
+            <ul>
+              <li><i class="material-icons">phone</i>(965) 436 3274</li>
+              <li><i class="material-icons">email</i>ahana.yoga@gmail.com</li>
+              <li><i class="material-icons">map</i>184 Main Collins Street</li>
+            </ul>
+          </div>
+        </div>
+      
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-widget pl-0 pl-lg-5">
+              <h2 class="fw-title">Company</h2>
+              <ul>
+                <li><a href="#">Online Education</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Special Issues</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="col-lg-2 col-sm-6">
+            <div class="footer-widget">
+              <h2 class="fw-title">About Us</h2>
+              <ul>
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Meet The Team</a></li>
+                <li><a href="#">Introduce</a></li>
+                <li><a href="#">Customer Service</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-widget pl-0 pl-lg-5">
+              <h2 class="fw-title">Open time</h2>
+              <ul>
+                <li><i class="material-icons">alarm_on</i>Mon - Fri:  6:30am - 07:45pm</li>
+                <li><i class="material-icons">alarm_on</i>Sat - Sun:  8:30am - 05:45pm</li>
+              </ul>
+              <form class="infor-form">
+                <input type="text" placeholder="Your Email">
+                <button><img src="img/icons/send.png" alt=""></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<hr>
+<section>
+  <footer class="bootam mt-5">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+      <div class="footer-social">
+        <a href="#"><i class="bi bi-facebook me-4"></i></a>
+        <a href="#"><i class="bi bi-instagram me-4"></i></a>
+        <a href="#"><i class="bi bi-linkedin me-4"></i></a>
+        <a href="#"><i class="bi bi-twitter me-4"></i></a>
+      </div>
+    </div>
+    
+
+    <div class="col-md-8 text-md-right">
+      <div class="copyright">
+Copyright ©2022 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+</div>
+    </div>
+  </div>
+</div>
+  </footer>
+</section>
+
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $(document).ready(function(){
+      $('.my-slider').owlCarousel({
+          loop:true,
+          center:true,
+          // margin:60,
+          nav:true,
+          // items:4,
+          autoplay:true,
+        
+          responsive:{
+              320:{
+                  items:1,
+                  margin:0,
+                  dots:false
+              },
+              768:{
+                  items:2,
+                  margin:5,
+                  dots:true
+              },
+              992:{
+                  items:3,
+                  margin:60,
+                  dots:true
+              }
+          }
+      });
+  });
+</script>
+
+
+<script>
+  $(document).ready(function(){
+      $('#testimonial-carousel').owlCarousel({
+          loop:true,
+          dots:true, 
+          nav:true, 
+          autoplay:true,
+          navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+          responsive:{
+              320:{
+                  items:1,
+                  margin:10,
+                  dots:true
+              },
+              768:{
+                  items:2,
+                  margin:10,
+                  dots:true
+              },
+              992:{
+                  items:2,
+                  margin:10,
+                  dots:true
+              }
+          }
+      });
+  });
+</script>
+
+
+
+
+<script>
+  $(document).ready(function(){
+      $('.my-slider3').owlCarousel({
+          loop:true,
+          center:true,
+          // margin:60,
+          nav:true,
+          // items:4,
+          autoplay:true,
+        
+          responsive:{
+              320:{
+                  items:1,
+                  margin:0,
+                  dots:false
+              },
+              768:{
+                  items:1,
+                  margin:5,
+                  dots:true
+              },
+              992:{
+                  items:1,
+                  margin:60,
+                  dots:true
+              }
+          }
+      });
+  });
+</script>
+
+
+<script>
+  $(document).ready(function(){
+      $('.my-slider4').owlCarousel({
+          loop:true,
+          center:true,
+          // margin:60,
+          nav:true,
+          // items:4,
+          autoplay:true,
+        
+          responsive:{
+              320:{
+                  items:1,
+                  margin:0,
+                  dots:false
+              },
+              768:{
+                  items:4,
+                  margin:0,
+                  dots:true
+              },
+              992:{
+                  items:6,
+                  margin:0,
+                  dots:true
+              }
+          }
+      });
+  });
+</script>
+</body>
+</html>
+
